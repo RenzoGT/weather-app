@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <main>
+      <h1>City Weather Checker</h1>
+
+      <div class="search-container">
+        <input id="city-input" type="text" placeholder="Type a city here..." />
+        <button id="search-button">SEARCH</button>
+      </div>
+
+      <div id="card-container">
+        <div id="country">
+          <p id="country-code"></p>
+          <img id="flag" src="" alt="" />
+        </div>
+
+        <div class="card-header"><h2 id="city-name"></h2></div>
+
+        <img id="svgImg" src="" alt="" />
+
+        <div class="card-body">
+          <h2 id="city-description"></h2>
+          <h2 id="city-temperature"></h2>
+        </div>
+
+        <div class="card-footer">
+          <h3 id="city-min-max-temp"></h3>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

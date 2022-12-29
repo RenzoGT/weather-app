@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<style>
+#rays {
+  animation: rotate 7s infinite linear;
+  transform-origin: center;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+</style>
+  <path id="rays" fill="none" stroke="#f6c358" stroke-linecap="round" stroke-width="8.6" d="m81.96 18.04-5.94 5.94M95.2 50h-8.4M81.96 81.96l-5.94-5.93M50 95.2v-8.4M18.04 81.96l5.93-5.93M4.8 50h8.4M18.04 18.04l5.93 5.94M50 4.8v8.4"/>
+  <circle id="sun" cx="50" cy="50" r="28.75" fill="#fcd462" data-original="#fcd462"/>
+  <path id="sun-shade" fill="#f6c358" d="M63.63 24.62c1.24 4 2.12 8.26 2.25 12.63.74 17.38-11 32.75-26.26 39.5 3.26 1.25 6.75 2 10.38 2a28.8 28.8 0 0 0 13.63-54.13Z"/>
+</svg>
